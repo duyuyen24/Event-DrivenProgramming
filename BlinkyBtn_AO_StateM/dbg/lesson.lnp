@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+".\dbg\bsp.o"
+".\dbg\main.o"
+".\dbg\uc_ao.o"
+".\dbg\system_tm4c123gh6pm.o"
+".\dbg\startup_tm4c123gh6pm.o"
+".\dbg\os_core.o"
+".\dbg\os_flag.o"
+".\dbg\os_mbox.o"
+".\dbg\os_mem.o"
+".\dbg\os_mutex.o"
+".\dbg\os_q.o"
+".\dbg\os_sem.o"
+".\dbg\os_task.o"
+".\dbg\os_time.o"
+".\dbg\os_tmr.o"
+".\dbg\os_cpu_a.o"
+".\dbg\os_dbg.o"
+".\dbg\os_cpu_c.o"
+--strict --scatter ".\dbg\lesson.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\dbg\lesson.map" -o .\dbg\lesson.axf

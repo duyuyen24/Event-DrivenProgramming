@@ -1,0 +1,175 @@
+Dependencies for Project 'lesson', Target 'dbg': (DO NOT MODIFY !)
+CompilerVersion: 6130001::V6.13.1::.\ARMCLANG
+F (.\bsp.c)(0x5F0831CC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/bsp.o -MD)
+I (uc_ao.h)(0x5F058406)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+I (bsp.h)(0x5F0831CC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5DB35BB0)
+I (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x5A72307D)
+I (..\qpc\3rd_party\CMSIS\Include\core_cm4.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_version.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_compiler.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_armclang.h)(0x5E8F2B89)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A2C6E)
+I (..\qpc\3rd_party\CMSIS\Include\mpu_armv7.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x5A5E87FB)
+I (..\qpc\3rd_party\ek-tm4c123gxl\rom.h)(0x56F0077E)
+I (..\qpc\3rd_party\ek-tm4c123gxl\sysctl.h)(0x5109BEF4)
+I (..\qpc\3rd_party\ek-tm4c123gxl\gpio.h)(0x56F0077E)
+F (.\main.c)(0x5FB901AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/main.o -MD)
+I (uc_ao.h)(0x5F058406)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+I (bsp.h)(0x5F0831CC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5DB35BB0)
+F (.\bsp.h)(0x5F0831CC)()
+F (.\app_cfg.h)(0x5F054F46)()
+F (.\os_cfg.h)(0x5ED4A70C)()
+F (.\uc_ao.c)(0x5F058406)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/uc_ao.o -MD)
+I (uc_ao.h)(0x5F058406)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (.\uc_ao.h)(0x5F058406)()
+F (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.c)(0x5613FE29)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/system_tm4c123gh6pm.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x5A72307D)
+I (..\qpc\3rd_party\CMSIS\Include\core_cm4.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_version.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_compiler.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_armclang.h)(0x5E8F2B89)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A2C6E)
+I (..\qpc\3rd_party\CMSIS\Include\mpu_armv7.h)(0x5E8F2B89)
+I (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x5A5E87FB)
+F (..\qpc\3rd_party\ek-tm4c123gxl\arm\startup_TM4C123GH6PM.s)(0x55DDF412)(--cpu Cortex-M4.fp.sp -g --pd "__UVISION_VERSION SETA 529"--pd "TM4C123GH6PM SETA 1"--pd "Stack_Size SETA 1024"--pd "Heap_Size SETA 16"-o .\dbg\startup_tm4c123gh6pm.o--depend .\dbg\startup_tm4c123gh6pm.d)
+F (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x5A72307D)()
+F (..\qpc\3rd_party\ucos-ii\Source\os_core.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_core.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_flag.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_flag.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_mbox.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_mbox.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_mem.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_mem.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_mutex.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_mutex.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_q.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_q.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_sem.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_sem.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_task.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_task.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_time.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_time.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Source\os_tmr.c)(0x5E599A1D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_tmr.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)()
+F (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu_a.asm)(0x5ED549CA)(--cpu Cortex-M4.fp.sp -g --pd "__UVISION_VERSION SETA 529"--pd "TM4C123GH6PM SETA 1"--pd "Stack_Size SETA 1024"--pd "Heap_Size SETA 16"-o .\dbg\os_cpu_a.o--depend .\dbg\os_cpu_a.d)
+F (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_dbg.c)(0x5EDAE4CC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_dbg.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
+F (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\os_cpu_c.c)(0x5ED55255)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../qpc/3rd_party/ucos-ii/Source -I ../qpc/3rd_party/ucos-ii/Ports/ARM-Cortex-M/ARMv7-M/ARM -I ../qpc/3rd_party/CMSIS/Include -I ../qpc/3rd_party/ek-tm4c123gxl -D__UVISION_VERSION="529" -DTM4C123GH6PM-o ./dbg/os_cpu_c.o -MD)
+I (..\qpc\3rd_party\ucos-ii\Source\ucos_ii.h)(0x5E599A1D)
+I (app_cfg.h)(0x5F054F46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB35BB0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5DB35BAE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DB35BB0)
+I (os_cfg.h)(0x5ED4A70C)
+I (..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x5ED5537B)
+I (..\qpc\3rd_party\ucos-ii\Source\os_trace.h)(0x5E599A1D)
